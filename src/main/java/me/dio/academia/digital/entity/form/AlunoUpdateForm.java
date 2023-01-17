@@ -7,6 +7,8 @@ public class AlunoUpdateForm {
   private String nome;
 
   private String bairro;
+  
+  private String  dataPaganmento;
 
   private LocalDate dataDeNascimento;
 }
