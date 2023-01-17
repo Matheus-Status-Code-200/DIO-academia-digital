@@ -24,6 +24,10 @@ public class AlunoForm {
   @NotEmpty(message = "Preencha o campo corretamente.")
   @Size(min = 3, max =50, message = "'${validatedValue}' precisa estar entre {min} e {max} caracteres.")
   private String bairro;
+  
+  @NotEmpty(message = "Preencha o campo data de pagamento.")
+  @Size(min = 3, max =50, message = "'${validatedValue}' precisa estar entre {min} e {max} caracteres.")
+  private String dataPaganmento;
 
   @NotNull(message = "Prencha o campo corretamente.")
   @Past(message = "Data '${validatedValue}' é inválida.")
